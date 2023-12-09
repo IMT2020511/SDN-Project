@@ -28,3 +28,14 @@ selected.
 components.
 
 
+**Steps to run the code**
+1.Download the project.
+2.Open it in Android studio.
+3.Clean project under build section.
+4.Wipe the data from device under device manager section.
+5.Run the code.
+3.
+
+
+
+**
