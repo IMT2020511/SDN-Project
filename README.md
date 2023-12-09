@@ -37,3 +37,32 @@ Android development.<br>
 • Go to “Tools” > “AVD Manager” and create a new virtual device<br>
 
 
+**Creating a basic UI in Android Studio**
+
+1. Create a new project:<br>
+• Open Android Studio.<br>
+• Click on “Start a new Android Studio project.”<br>
+• Choose an appropriate template. For a basic UI, you can start with an “Empty Activity”
+or “Basic Activity.”<br>
+2. Configure your project:<br>
+• Enter the name of your application in the “Name” field.<br>
+• Set the “Save location” for your project.<br>
+• Choose the language (Java or Kotlin).<br>
+• Set the minimum API level. For a basic project, you can use a relatively low API level.<br>
+3. Design the UI:<br>
+• Open the ‘res’ folder in the ‘app/src/main directory’.<br>
+• Navigate to the ‘res/layout folder’.<br>
+• Open the ‘activity main.xml file’. This file defines the layout of your main activity.<br>
+• You can use the visual editor or switch to the XML view to define your UI components.<br>
+4. Add UI components:<br>
+• Drag and drop UI components from the Palette (located on the left side) to the layout.<br>
+• Common UI components include ‘TextView’ (for displaying text), ‘Button’ (for user
+interaction), ‘EditText’ (for user input), etc.<br>
+5. Adjust properties:<br>
+• Customize the properties of each component using the Attributes panel. You can set
+properties such as text, color, size, etc.<br>
+6. Connect UI elements with code:<br>
+
+
+
+
