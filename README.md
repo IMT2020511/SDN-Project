@@ -62,6 +62,48 @@ interaction), ‘EditText’ (for user input), etc.<br>
 • Customize the properties of each component using the Attributes panel. You can set
 properties such as text, color, size, etc.<br>
 6. Connect UI elements with code:<br>
+• Open the corresponding Java or Kotlin file for your main activity (‘MainActivity.java’
+or ‘MainActivity.kt’).<br>
+• Define variables for the UI components by using ‘findViewById’.<br>
+• Perform any necessary actions or logic in response to user interactions.<br>
+7. Run your app:<br>
+• Connect a physical Android device or use an emulator.<br>
+• Click on the ”Run” button (green triangle) in the toolbar to build and run your app.<br>
+8. Test your app:<br>
+• Interact with your app on the emulator or device to ensure that the UI behaves as
+expected.<br>
+
+
+**Adding firebase to the android project**
+1. Create a Firebase project<br>
+2. Register your app with Firebase<br>
+• Go to the Firebase console.<br>
+• In the center of the project overview page, click the Android icon or Add app to launch
+the setup workflow.<br>
+• Enter your app’s package name in the Android package name field.<br>
+• (Optional) Enter other app information: App nickname and Debug signing certificate
+SHA-1.<br>
+• Click Register app.<br>
+3. Add a Firebase configuration file<br>
+• Download and then add the Firebase Android configuration file (google-services.json) to
+your app:<br>
+(a) Click Download google-services.json to obtain your Firebase Android config file.<br>
+(b) Move your config file into the module (app-level) root directory of your app<br>
+• To make the values in your google-services.json config file accessible to Firebase SDKs,
+you need the Google services Gradle plugin (google-services).<br>
+(a) In your root-level (project-level) Gradle file (<project>/build.gradle.kts or
+<project>/build.gradle), add the Google services plugin as a dependency<br>
+(b) In your module (app-level) Gradle file (usually <project>/<app-module>
+/build.gradle.kts or <project>/<app-module>/build.gradle), add the Google
+services plugin.<br>
+4. Add Firebase SDK’s to your app<br>
+• In your module (app-level) Gradle file (usually <project>/<app-module>/build.gradle.kts
+or <project>/<app-module>/build.gradle), add the dependencies for the Firebase
+products that you want to use in your app.<br>
+• After adding the dependencies for the products you want to use, sync your Android
+project with Gradle files.<br>
+
+
 
 
 
