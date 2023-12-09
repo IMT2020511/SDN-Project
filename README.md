@@ -26,14 +26,14 @@ selected.<br>
 • Launch Android Studio by finding it in your Start Menu or desktop shortcuts.<br>
 • The first time you run Android Studio, it will download and install the Android SDK
 components.<br>
-
-
-**Steps to run the code**<br>
-1.Download the project.<br>
-2.Open it in Android studio.<br>
-3.Clean project under build section.<br>
-4.Wipe the data from device under device manager section.<br>
-5.Run the code.<br>
-
+9. Configure SDK:<br>
+• Follow the setup wizard to configure the Android SDK with the necessary packages.<br>
+• Download the SDK components required for your development.<br>
+10. Finish Setup:<br>
+• Once the SDK components are downloaded and installed, you should be ready to start
+Android development.<br>
+11. Configure Android Virtual Device (AVD):<br>
+• Create an Android Virtual Device to test your applications.<br>
+• Go to “Tools” > “AVD Manager” and create a new virtual device<br>
 
 
