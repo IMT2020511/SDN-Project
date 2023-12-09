@@ -105,6 +105,88 @@ project with Gradle files.<br>
 
 
 
+**Google authentication using Firebase**
+
+1. Enable Google Sign-In in Firebase Console:<br>
+• In the Firebase Console, navigate to ”Authentication” ”Sign-in method.”<br>
+• Enable Google as a sign-in provider.<br>
+2. Update Dependencies:<br>
+• Open your app-level build.gradle file.<br>
+• Add the dependencies<br>
+• Click “Sync Now” in Android Studio to sync your project with the updated dependencies.<br>
+3. Implement Google Sign-In in Your Android App:<br>
+• In your ‘MainActivity’ or another relevant activity, initialize Firebase Authentication<br>
+• Configure Google Sign-In options<br>
+• Initialize ‘GoogleSignInClient’ using the configured options<br>
+• Trigger Google Sign-In when the user taps on a button or performs a relevant action<br>
+• Override ‘onActivityResult’ to handle the result of the sign-in activity<br>
+• Implement the ‘handleSignInResult’ method to process the sign-in result<br>
+• After obtaining the GoogleSignInAccount, authenticate with Firebase<br>
+
+
+**Email authentication using Firebase**
+1. Set Up Firebase Authentication:<br>
+• In the Firebase Console, go to the “Authentication” section.<br>
+• Enable the “Email/Password” sign-in method.<br>
+2. Add Firebase SDK to your Android Studio Project:<br>
+• Open your Android Studio project.<br>
+• Add the Firebase SDK by adding the dependencies to your ‘build.gradle’ files.<br>
+3. Initialize Firebase in your App:<br>
+• In your ‘Application’ class or the main activity, initialize Firebase<br>
+4. Create a Registration Activity:<br>
+• Create a new activity for user registration.<br>
+• Design a layout with input fields for email and password, along with a registration
+button.<br>
+5
+5. Implement Firebase Email Registration:<br>
+• In the registration activity, get references to the email and password fields.<br>
+• Use the Firebase Authentication API to create a new user account with the entered
+email and password.<br>
+6. Create a Login Activity:<br>
+• Create a new activity for user login.<br>
+• Design a layout with input fields for email and password, along with a login button.<br>
+7. Implement Firebase Email Login:<br>
+• In the login activity, get references to the email and password fields.<br>
+• Use the Firebase Authentication API to sign in the user with the entered email and
+password.<br>
+8. Handle User Authentication State:<br>
+• You may want to check the user’s authentication state when your app starts. If the
+user is already authenticated, you can skip the login/registration screens and take them
+directly to the main app screen.<br>
+9. Add Sign Out Functionality:<br>
+• Implement a sign-out button.<br>
+
+
+**Connecting to real time database using Firebase**
+1. Create a Database<br>
+• Navigate to the Realtime Database section of the Firebase console. You’ll be prompted
+to select an existing Firebase project. Follow the database creation workflow.<br>
+• Select a starting mode for your Firebase Security Rules:<br>
+(a) Test mode<br>
+– Good for getting started with the mobile and web client libraries, but allows
+anyone to read and overwrite your data.<br>
+(b) Locked mode<br>
+– Denies all reads and writes from mobile and web clients. Your authenticated
+application servers can still access your database.<br>
+• Choose a location for the database.<br>
+(a) Depending on the location of the database, the URL for the new database will be
+in one of the following forms:<br>
+– DATABASE NAME.firebaseio.com (for databases in us-central1)<br>
+– DATABASE NAME.REGION.firebasedatabase.app (for databases in all other locations)<br>
+• Click done.<br>
+2. Add the Realtime Database SDK to your app<br>
+• In your module (app-level) Gradle file (usually <project>/<app-module>/build.gradle.kts
+or <project>/<app-module>/build.gradle), add the dependency for the Realtime
+Database library for Android.<br>
+3. Configure Realtime Database Security Rules<br>
+• The Realtime Database provides a declarative rules language that allows you to define
+how your data should be structured, how it should be indexed, and when your data can
+be read from and written to.<br>
+4. Write to your database.<br>
+5. Read from your database.<br>
+
+
+
 
 
 
