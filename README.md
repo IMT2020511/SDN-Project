@@ -29,7 +29,7 @@ components.
 
 
 **Steps to run the code**
-1.Download the project.
+1.Download the project.<br>
 2.Open it in Android studio.
 3.Clean project under build section.
 4.Wipe the data from device under device manager section.
