@@ -1,3 +1,5 @@
+ **Steps to install Android Studio on Windows**
+
 1. Download Android Studio:
 • Go to the official Android Studio website: https://developer.android.com/studio.
 • Click on the ”Download” button.
@@ -24,3 +26,5 @@ selected.
 • Launch Android Studio by finding it in your Start Menu or desktop shortcuts.
 • The first time you run Android Studio, it will download and install the Android SDK
 components.
+
+
